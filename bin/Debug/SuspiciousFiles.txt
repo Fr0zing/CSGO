@@ -1,0 +1,63 @@
+Имя: PcGamesPlugin.dll
+Размер (KB): 180
+Дата создания: 03.06.2024 13:20:58
+Дата изменения: 17.05.2024 10:26:15
+Дата доступа: 24.07.2024 22:49:33
+Полный путь: C:\Program Files (x86)\BlueStacks X\xplugins\PcGamesPlugin.dll
+
+Имя: qmlshapesplugin.dll
+Размер (KB): 26
+Дата создания: 03.06.2024 13:21:15
+Дата изменения: 30.04.2021 13:30:57
+Дата доступа: 27.07.2024 13:25:07
+Полный путь: C:\Program Files\BlueStacks_nxt\QtQuick\Shapes\qmlshapesplugin.dll
+
+Имя: trailerRespawn.lua
+Размер (KB): 7
+Дата создания: 10.02.2024 23:19:41
+Дата изменения: 14.12.2023 17:24:48
+Дата доступа: 14.02.2024 0:35:25
+Полный путь: C:\Games\BeamNG.drive v0.31.3.0.16019 Hotfix\lua\ge\extensions\core\trailerRespawn.lua
+
+Имя: particlesplugin.dll
+Размер (KB): 23
+Дата создания: 03.03.2024 1:31:44
+Дата изменения: 03.03.2024 1:31:44
+Дата доступа: 27.07.2024 13:25:19
+Полный путь: C:\Program Files\Corsair\Corsair iCUE5 Software\imports\QtQuick\Particles.2\particlesplugin.dll
+
+Имя: qmlshapesplugin.dll
+Размер (KB): 23
+Дата создания: 03.03.2024 1:31:44
+Дата изменения: 03.03.2024 1:31:44
+Дата доступа: 21.07.2024 21:03:17
+Полный путь: C:\Program Files\Corsair\Corsair iCUE5 Software\imports\QtQuick\Shapes\qmlshapesplugin.dll
+
+Имя: veVehicleSpawner.lua
+Размер (KB): 4
+Дата создания: 10.02.2024 23:19:41
+Дата изменения: 14.12.2023 17:24:00
+Дата доступа: 10.02.2024 23:19:41
+Полный путь: C:\Games\BeamNG.drive v0.31.3.0.16019 Hotfix\lua\ge\extensions\editor\vehicleEditor\liveEditor\veVehicleSpawner.lua
+
+Имя: selectGarageSpots.lua
+Размер (KB): 7
+Дата создания: 10.02.2024 23:19:41
+Дата изменения: 20.09.2023 16:09:00
+Дата доступа: 10.02.2024 23:19:41
+Полный путь: C:\Games\BeamNG.drive v0.31.3.0.16019 Hotfix\lua\ge\extensions\flowgraph\nodes\mission\selectGarageSpots.lua
+
+Имя: onVehicleSpawned.lua
+Размер (KB): 1
+Дата создания: 10.02.2024 23:19:42
+Дата изменения: 20.09.2023 16:08:28
+Дата доступа: 10.02.2024 23:19:42
+Полный путь: C:\Games\BeamNG.drive v0.31.3.0.16019 Hotfix\lua\ge\extensions\flowgraph\nodes\vehicle\onVehicleSpawned.lua
+
+Имя: moveSpeed.lua
+Размер (KB): 1
+Дата создания: 27.07.2024 1:54:21
+Дата изменения: 27.07.2024 1:54:21
+Дата доступа: 27.07.2024 1:54:36
+Полный путь: C:\Program Files (x86)\Steam\steamapps\common\War Selection\Cache\scripts\WarSelection\compiled\gameplay\upgrades\unit\moveSpeed.lua
+

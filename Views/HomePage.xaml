@@ -1,0 +1,14 @@
+﻿<Page x:Class="CSGOCheatDetector.Views.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="HomePage">
+
+    <Grid>
+        <StackPanel Margin="20,50,20,0" VerticalAlignment="Top">
+            <TextBlock Text="Добро пожаловать в CSGO Cheat Detector" 
+                       FontSize="24" FontWeight="Bold" Foreground="White" Margin="0,0,0,10" />
+            <TextBlock Text="Это приложение помогает обнаруживать подозрительные файлы, связанные с читами в игре CSGO. Используйте меню слева для навигации по функциям." 
+                       FontSize="14" Foreground="White" TextWrapping="Wrap" />
+        </StackPanel>
+    </Grid>
+</Page>

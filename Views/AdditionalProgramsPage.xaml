@@ -1,0 +1,27 @@
+﻿<Page x:Class="CSGOCheatDetector.Views.AdditionalProgramsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="AdditionalProgramsPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+            <Button Content="BrowserDownloads" Command="{Binding RunBrowserDownloadsViewCommand}" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
+            <Button Content="DevManView" Command="{Binding RunDevManViewCommand}" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
+            <Button Content="ExecutedPrograms" Command="{Binding RunExecutedProgramsListCommand}" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
+            <Button Content="JumpListsView" Command="{Binding RunJumpListsViewCommand}" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
+            <Button Content="MUICacheView" Command="{Binding RunMUICacheViewCommand}" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
+            <Button Content="Shellbag" Command="{Binding RunShellbagCommand}" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
+            <Button Content="UserAssistView" Command="{Binding RunUserAssistViewCommand}" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
+            <!-- Добавьте дополнительные кнопки по мере необходимости -->
+        </StackPanel>
+    </Grid>
+</Page>

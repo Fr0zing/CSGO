@@ -1,0 +1,47 @@
+﻿<Window x:Class="CSGOCheatDetector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="800" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+
+    <Border CornerRadius="20" Background="White" Margin="0" ClipToBounds="True">
+        <Border.Clip>
+            <RectangleGeometry Rect="0,0,1200,800" RadiusX="20" RadiusY="20" />
+        </Border.Clip>
+        <Grid Margin="0">
+            <!-- Background Grid with Blur Effect -->
+            <Grid ClipToBounds="True">
+                <Grid.Background>
+                    <ImageBrush ImageSource="https://bogatyr.club/uploads/posts/2023-03/1679162891_bogatyr-club-p-fon-uglovoi-foni-vkontakte-11.jpg" Stretch="UniformToFill"/>
+                </Grid.Background>
+                <Grid.Effect>
+                    <BlurEffect Radius="10"/>
+                </Grid.Effect>
+            </Grid>
+
+            <!-- Content Grid -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Width="250">
+                    <Button Content="Главная" Click="ButtonHomePage_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
+                    <Button Content="Проверка файлов" Click="ButtonFileCheckPage_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
+                    <Button Content="Папки с логами" Click="ButtonLogFoldersPage_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
+                    <Button Content="Steam аккаунты" Click="ButtonSteamAccountsPage_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
+                    <Button Content="Дополнительные программы" Click="ButtonAdditionalProgramsPage_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
+                    <Button Content="Закрыть" Click="ButtonClose_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
+                </StackPanel>
+
+                <Border Grid.Column="1" Width="2" Background="Gray" Margin="0,10,0,10"/>
+
+                <Frame x:Name="MainFrame" Grid.Column="2" NavigationUIVisibility="Hidden"/>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>
