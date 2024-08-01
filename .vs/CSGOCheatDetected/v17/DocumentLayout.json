@@ -1,109 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\",
+  "WorkspaceRootPath": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|c:\\users\\systemx\\desktop\\csgocheatdetected\\requestaccesswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:requestaccesswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\services\\browserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:services\\browserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\requestaccesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:requestaccesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|c:\\users\\valer\\desktop\\csgocheatdetected\\views\\browserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\browserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\browserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\browserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\gameprocesscheckpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\gameprocesscheckpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\gameprocesscheckpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\gameprocesscheckpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\converters\\booleantoyesnoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:converters\\booleantoyesnoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\steamaccountspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\steamaccountspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\viewmodels\\additionalprogramsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:viewmodels\\additionalprogramsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\viewmodels\\steamaccountsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:viewmodels\\steamaccountsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\additionalprogramspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\additionalprogramspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\additionalprogramspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\additionalprogramspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\logfolderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\logfolderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\steamaccountspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\steamaccountspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\yourresourcedictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\yourresourcedictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\viewmodels\\filecheckviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:viewmodels\\filecheckviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\logfolderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\logfolderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\filecheckpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\filecheckpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\filecheckpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\filecheckpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\filecheckpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\obj\\Debug\\Views\\GameProcessCheckPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\Views\\GameProcessCheckPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\viewmodels\\steamaccountsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:viewmodels\\steamaccountsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\viewmodels\\additionalprogramsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:viewmodels\\additionalprogramsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\viewmodels\\filecheckviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:viewmodels\\filecheckviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\services\\filesearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:services\\filesearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\steamaccountspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\steamaccountspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\requestaccesswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:requestaccesswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\infowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:infowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\infowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:infowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\additionalprogramspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\additionalprogramspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\yourresourcedictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\yourresourcedictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\steamaccountspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\steamaccountspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\logfolderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\logfolderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\logfolderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\logfolderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\filecheckpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\filecheckpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\models\\suspiciousfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:models\\suspiciousfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\converters\\booleantoyesnoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:converters\\booleantoyesnoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\requestaccesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:requestaccesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\additionalprogramspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\additionalprogramspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02F361B8-E42D-44B0-84E9-6B4276D83E2D}|CSGOCheatDetected.csproj|solutionrelative:views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -117,98 +157,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\packages.config",
-              "RelativeDocumentMoniker": "packages.config",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\packages.config",
-              "RelativeToolTip": "packages.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-29T11:04:41.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RequestAccessWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\RequestAccessWindow.xaml.cs",
-              "RelativeDocumentMoniker": "RequestAccessWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\RequestAccessWindow.xaml.cs",
-              "RelativeToolTip": "RequestAccessWindow.xaml.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAowCQAAABKAAAA",
+              "DocumentIndex": 6,
+              "Title": "GameProcessCheckPage.g.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\obj\\Debug\\Views\\GameProcessCheckPage.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\Views\\GameProcessCheckPage.g.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\obj\\Debug\\Views\\GameProcessCheckPage.g.cs",
+              "RelativeToolTip": "obj\\Debug\\Views\\GameProcessCheckPage.g.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAMwDgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:47:03.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T22:59:55.435Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RequestAccessWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\RequestAccessWindow.xaml",
-              "RelativeDocumentMoniker": "RequestAccessWindow.xaml",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\RequestAccessWindow.xaml",
-              "RelativeToolTip": "RequestAccessWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-29T10:46:22.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAgwDIAAAAAAAAA",
+              "Title": "BrowserPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\BrowserPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\BrowserPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\BrowserPage.xaml.cs",
+              "RelativeToolTip": "Views\\BrowserPage.xaml.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAcwIYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T17:24:42.072Z"
+              "WhenOpened": "2024-07-31T20:04:53.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-27T17:24:21.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T17:05:45.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FileCheckViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ViewModels\\FileCheckViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\FileCheckViewModel.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ViewModels\\FileCheckViewModel.cs",
-              "RelativeToolTip": "ViewModels\\FileCheckViewModel.cs",
-              "ViewState": "AQIAAD4BAAAAAAAAAAAkwFwBAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T18:05:13.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
               "Title": "SteamAccountsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\SteamAccountsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\SteamAccountsPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SteamAccountsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\SteamAccountsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\SteamAccountsPage.xaml.cs",
               "RelativeToolTip": "Views\\SteamAccountsPage.xaml.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -216,115 +198,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Views\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\RelayCommand.cs",
-              "RelativeToolTip": "Views\\RelayCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T11:42:06.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-27T17:23:49.55Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwDUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T17:24:42.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameProcessCheckPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\GameProcessCheckPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\GameProcessCheckPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\GameProcessCheckPage.xaml.cs",
+              "RelativeToolTip": "Views\\GameProcessCheckPage.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:43:31.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameProcessCheckPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\GameProcessCheckPage.xaml",
+              "RelativeDocumentMoniker": "Views\\GameProcessCheckPage.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\GameProcessCheckPage.xaml",
+              "RelativeToolTip": "Views\\GameProcessCheckPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T17:43:11.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "AdditionalProgramsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\AdditionalProgramsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\AdditionalProgramsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\AdditionalProgramsPage.xaml.cs",
-              "RelativeToolTip": "Views\\AdditionalProgramsPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "RequestAccessWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\RequestAccessWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RequestAccessWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\RequestAccessWindow.xaml.cs",
+              "RelativeToolTip": "RequestAccessWindow.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowEkAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T14:32:28.863Z"
+              "WhenOpened": "2024-07-29T10:47:03.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\HomePage.xaml",
-              "RelativeDocumentMoniker": "Views\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\HomePage.xaml",
-              "RelativeToolTip": "Views\\HomePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-27T17:27:18.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SteamAccountsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\SteamAccountsPage.xaml",
-              "RelativeDocumentMoniker": "Views\\SteamAccountsPage.xaml",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\SteamAccountsPage.xaml",
-              "RelativeToolTip": "Views\\SteamAccountsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-27T17:30:24.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BooleanToVisibilityConverter.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Converters\\BooleanToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "Converters\\BooleanToVisibilityConverter.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Converters\\BooleanToVisibilityConverter.cs",
-              "RelativeToolTip": "Converters\\BooleanToVisibilityConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T11:40:28.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BooleanToYesNoConverter.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Converters\\BooleanToYesNoConverter.cs",
-              "RelativeDocumentMoniker": "Converters\\BooleanToYesNoConverter.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Converters\\BooleanToYesNoConverter.cs",
-              "RelativeToolTip": "Converters\\BooleanToYesNoConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T11:40:41.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "NavigationService.cs",
-              "DocumentMoniker": "C:\\Users\\Valer\\AppData\\Local\\Temp\\.vsdbgsrc\\b202e958bb04cfade5e67ad24f9352af194ebbde46e4c3ce26a3e0ac00ab14bd\\NavigationService.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Valer\\AppData\\Local\\Temp\\.vsdbgsrc\\b202e958bb04cfade5e67ad24f9352af194ebbde46e4c3ce26a3e0ac00ab14bd\\NavigationService.cs",
-              "ToolTip": "C:\\Users\\Valer\\AppData\\Local\\Temp\\.vsdbgsrc\\b202e958bb04cfade5e67ad24f9352af194ebbde46e4c3ce26a3e0ac00ab14bd\\NavigationService.cs",
-              "RelativeToolTip": "..\\..\\..\\Valer\\AppData\\Local\\Temp\\.vsdbgsrc\\b202e958bb04cfade5e67ad24f9352af194ebbde46e4c3ce26a3e0ac00ab14bd\\NavigationService.cs",
-              "ViewState": "AQIAAJUEAAAAAAAAAAAmwJcEAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T17:26:17.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LogFoldersPage.xaml",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\LogFoldersPage.xaml",
-              "RelativeDocumentMoniker": "Views\\LogFoldersPage.xaml",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\LogFoldersPage.xaml",
-              "RelativeToolTip": "Views\\LogFoldersPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-27T17:26:32.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ViewModels\\BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ViewModels\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ViewModels\\BaseViewModel.cs",
               "RelativeToolTip": "ViewModels\\BaseViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -332,23 +270,282 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "AdditionalProgramsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ViewModels\\AdditionalProgramsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ViewModels\\AdditionalProgramsViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\AdditionalProgramsViewModel.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ViewModels\\AdditionalProgramsViewModel.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ViewModels\\AdditionalProgramsViewModel.cs",
               "RelativeToolTip": "ViewModels\\AdditionalProgramsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBYAAABdAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T14:33:19.064Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileSearchService.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Services\\FileSearchService.cs",
+              "RelativeDocumentMoniker": "Services\\FileSearchService.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Services\\FileSearchService.cs",
+              "RelativeToolTip": "Services\\FileSearchService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAUwEAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:59:18.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BrowserService.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Services\\BrowserService.cs",
+              "RelativeDocumentMoniker": "Services\\BrowserService.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Services\\BrowserService.cs",
+              "RelativeToolTip": "Services\\BrowserService.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T20:06:20.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BrowserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\BrowserPage.xaml",
+              "RelativeDocumentMoniker": "Views\\BrowserPage.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\BrowserPage.xaml",
+              "RelativeToolTip": "Views\\BrowserPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T20:04:33.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "FileCheckPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\FileCheckPage.xaml",
+              "RelativeDocumentMoniker": "Views\\FileCheckPage.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\FileCheckPage.xaml",
+              "RelativeToolTip": "Views\\FileCheckPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-27T17:24:10.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileCheckPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\FileCheckPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\FileCheckPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\FileCheckPage.xaml.cs",
+              "RelativeToolTip": "Views\\FileCheckPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T17:30:40.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LogFoldersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\LogFoldersPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LogFoldersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\LogFoldersPage.xaml.cs",
+              "RelativeToolTip": "Views\\LogFoldersPage.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAcwCIBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T17:27:22.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T17:05:45.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InfoWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\InfoWindow.xaml",
+              "RelativeDocumentMoniker": "InfoWindow.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\InfoWindow.xaml",
+              "RelativeToolTip": "InfoWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T18:12:22.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InfoWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\InfoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "InfoWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\InfoWindow.xaml.cs",
+              "RelativeToolTip": "InfoWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:12:38.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdditionalProgramsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\AdditionalProgramsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AdditionalProgramsPage.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\AdditionalProgramsPage.xaml",
+              "RelativeToolTip": "Views\\AdditionalProgramsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T14:32:10.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Commands\\RelayCommand.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T11:42:06.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\HomePage.xaml",
+              "RelativeToolTip": "Views\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-27T17:27:18.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LogFoldersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\LogFoldersPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LogFoldersPage.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\LogFoldersPage.xaml",
+              "RelativeToolTip": "Views\\LogFoldersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-27T17:26:32.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SteamAccountsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\SteamAccountsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SteamAccountsPage.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\SteamAccountsPage.xaml",
+              "RelativeToolTip": "Views\\SteamAccountsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-27T17:30:24.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "YourResourceDictionary.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\YourResourceDictionary.xaml",
+              "RelativeDocumentMoniker": "Views\\YourResourceDictionary.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\YourResourceDictionary.xaml",
+              "RelativeToolTip": "Views\\YourResourceDictionary.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T14:25:07.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileCheckViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ViewModels\\FileCheckViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\FileCheckViewModel.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ViewModels\\FileCheckViewModel.cs",
+              "RelativeToolTip": "ViewModels\\FileCheckViewModel.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAQwGgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T18:05:13.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SuspiciousFile.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Models\\SuspiciousFile.cs",
+              "RelativeDocumentMoniker": "Models\\SuspiciousFile.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Models\\SuspiciousFile.cs",
+              "RelativeToolTip": "Models\\SuspiciousFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:58:20.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SteamAccountsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ViewModels\\SteamAccountsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SteamAccountsViewModel.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ViewModels\\SteamAccountsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SteamAccountsViewModel.cs",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAQwBcBAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T11:37:48.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ServiceLocator.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ServiceLocator.cs",
+              "RelativeDocumentMoniker": "ServiceLocator.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\ServiceLocator.cs",
+              "RelativeToolTip": "ServiceLocator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T18:11:26.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-27T17:24:21.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RequestAccessWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\RequestAccessWindow.xaml",
+              "RelativeDocumentMoniker": "RequestAccessWindow.xaml",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\RequestAccessWindow.xaml",
+              "RelativeToolTip": "RequestAccessWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-29T10:46:22.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-29T11:04:41.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\HomePage.xaml.cs",
               "RelativeToolTip": "Views\\HomePage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -356,84 +553,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SteamAccountsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ViewModels\\SteamAccountsViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\SteamAccountsViewModel.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ViewModels\\SteamAccountsViewModel.cs",
-              "RelativeToolTip": "ViewModels\\SteamAccountsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABHAAAA",
+              "DocumentIndex": 29,
+              "Title": "BooleanToYesNoConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Converters\\BooleanToYesNoConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BooleanToYesNoConverter.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Converters\\BooleanToYesNoConverter.cs",
+              "RelativeToolTip": "Converters\\BooleanToYesNoConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T11:37:48.795Z"
+              "WhenOpened": "2024-07-28T11:40:41.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdditionalProgramsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\AdditionalProgramsPage.xaml",
-              "RelativeDocumentMoniker": "Views\\AdditionalProgramsPage.xaml",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\AdditionalProgramsPage.xaml",
-              "RelativeToolTip": "Views\\AdditionalProgramsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-28T14:32:10.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "YourResourceDictionary.xaml",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\YourResourceDictionary.xaml",
-              "RelativeDocumentMoniker": "Views\\YourResourceDictionary.xaml",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\YourResourceDictionary.xaml",
-              "RelativeToolTip": "Views\\YourResourceDictionary.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-28T14:25:07.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LogFoldersPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\LogFoldersPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\LogFoldersPage.xaml.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\LogFoldersPage.xaml.cs",
-              "RelativeToolTip": "Views\\LogFoldersPage.xaml.cs",
-              "ViewState": "AQIAAJsAAAAAAAAAAAAAwO8AAAAAAAAA",
+              "DocumentIndex": 34,
+              "Title": "AdditionalProgramsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\AdditionalProgramsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdditionalProgramsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Views\\AdditionalProgramsPage.xaml.cs",
+              "RelativeToolTip": "Views\\AdditionalProgramsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T17:27:22.582Z"
+              "WhenOpened": "2024-07-28T14:32:28.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FileCheckPage.xaml",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\FileCheckPage.xaml",
-              "RelativeDocumentMoniker": "Views\\FileCheckPage.xaml",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\FileCheckPage.xaml",
-              "RelativeToolTip": "Views\\FileCheckPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-27T17:24:10.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FileCheckPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\FileCheckPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\FileCheckPage.xaml.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\Views\\FileCheckPage.xaml.cs",
-              "RelativeToolTip": "Views\\FileCheckPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "DocumentIndex": 36,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\AppData\\Local\\Temp\\.vsdbgsrc\\b202e958bb04cfade5e67ad24f9352af194ebbde46e4c3ce26a3e0ac00ab14bd\\NavigationService.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b202e958bb04cfade5e67ad24f9352af194ebbde46e4c3ce26a3e0ac00ab14bd\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\Valer\\AppData\\Local\\Temp\\.vsdbgsrc\\b202e958bb04cfade5e67ad24f9352af194ebbde46e4c3ce26a3e0ac00ab14bd\\NavigationService.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b202e958bb04cfade5e67ad24f9352af194ebbde46e4c3ce26a3e0ac00ab14bd\\NavigationService.cs",
+              "ViewState": "AQIAAJUEAAAAAAAAAAAmwJcEAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T17:30:40.54Z"
+              "WhenOpened": "2024-07-27T17:26:17.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ServiceLocator.cs",
-              "DocumentMoniker": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ServiceLocator.cs",
-              "RelativeDocumentMoniker": "ServiceLocator.cs",
-              "ToolTip": "C:\\Users\\SystemX\\Desktop\\CSGOCheatDetected\\ServiceLocator.cs",
-              "RelativeToolTip": "ServiceLocator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "DocumentIndex": 30,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BooleanToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\Valer\\Desktop\\CSGOCheatDetected\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\BooleanToVisibilityConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T18:11:26.146Z"
+              "WhenOpened": "2024-07-28T11:40:28.178Z"
             }
           ]
         }

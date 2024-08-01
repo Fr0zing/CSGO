@@ -11,7 +11,7 @@ namespace CSGOCheatDetector.Views
 {
     public partial class LogFoldersPage : Page
     {
-        private static bool isSearching = false; // Флаг для отслеживания состояния поиска
+        private static bool isSearching = false;
 
         public LogFoldersPage()
         {
@@ -50,11 +50,22 @@ namespace CSGOCheatDetector.Views
             OpenFolder(folderPath);
         }
 
-        private void ButtonEventLogs_Click(object sender, RoutedEventArgs e)
+        private void ButtonEventLog_Click(object sender, RoutedEventArgs e)
         {
-            string folderPath = @"C:\Windows\System32\winevt\Logs";
-            OpenFolder(folderPath);
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "eventvwr.msc",
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Не удалось открыть журнал событий: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
+
 
         private void ButtonWERReportArchive_Click(object sender, RoutedEventArgs e)
         {
@@ -100,7 +111,6 @@ namespace CSGOCheatDetector.Views
                     process.WaitForExit();
                 }
 
-                // Открытие файла
                 Process.Start(new ProcessStartInfo
                 {
                     FileName = filePath,
@@ -115,10 +125,7 @@ namespace CSGOCheatDetector.Views
 
         private async void ButtonCheckCSGO_Click(object sender, RoutedEventArgs e)
         {
-            if (isSearching)
-            {
-                return; // Если уже идет поиск, ничего не делать
-            }
+            if (isSearching) return;
 
             isSearching = true;
             UpdateSearchUI(true);
@@ -141,29 +148,58 @@ namespace CSGOCheatDetector.Views
             }
         }
 
-        private void UpdateSearchUI(bool isSearching)
+        private async void ButtonOpenScreenshots_Click(object sender, RoutedEventArgs e)
         {
-            if (isSearching)
+            if (isSearching) return;
+
+            isSearching = true;
+            UpdateSearchUI(true);
+
+            string screenshotsFolder = await Task.Run(() => FindScreenshotsFolder());
+
+            isSearching = false;
+            UpdateSearchUI(false);
+
+            if (!string.IsNullOrEmpty(screenshotsFolder))
             {
-                CheckAndOpenCSGOButton.Content = "Идет поиск...";
-                CheckAndOpenCSGOButton.IsEnabled = false;
+                OpenFolder(screenshotsFolder);
             }
             else
             {
-                CheckAndOpenCSGOButton.Content = "Check and Open CS:GO";
-                CheckAndOpenCSGOButton.IsEnabled = true;
+                MessageBox.Show("Папка скриншотов не найдена.", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
             }
+        }
+
+        private void UpdateSearchUI(bool isSearching)
+        {
+            CheckAndOpenCSGOButton.Content = isSearching ? "Идет поиск..." : "Check and Open CS:GO";
+            CheckAndOpenCSGOButton.IsEnabled = !isSearching;
         }
 
         private List<string> FindCSGOFolders()
         {
             List<string> csgoFolders = new List<string>();
 
+            var standardPaths = new List<string>
+            {
+                @"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive",
+                @"D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive",
+                @"E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive"
+            };
+
+            foreach (var path in standardPaths)
+            {
+                if (Directory.Exists(path) && File.Exists(Path.Combine(path, "csgo.exe")))
+                {
+                    csgoFolders.Add(path);
+                    return csgoFolders;
+                }
+            }
+
             foreach (var drive in DriveInfo.GetDrives().Where(d => d.DriveType == DriveType.Fixed))
             {
                 try
                 {
-                    // First look for Steam folder
                     string steamFolder = FindFolder("Steam", drive.Name);
                     if (!string.IsNullOrEmpty(steamFolder))
                     {
@@ -171,20 +207,34 @@ namespace CSGOCheatDetector.Views
                         if (Directory.Exists(csgoPath) && File.Exists(Path.Combine(csgoPath, "csgo.exe")))
                         {
                             csgoFolders.Add(csgoPath);
+                            return csgoFolders;
                         }
                     }
 
-                    // Then look for CS:GO folder directly
                     var csgoPaths = FindFolders("Counter-Strike Global Offensive", drive.Name);
                     csgoFolders.AddRange(csgoPaths.Where(p => File.Exists(Path.Combine(p, "csgo.exe"))));
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
-                    // Ignore errors
                 }
             }
 
             return csgoFolders;
+        }
+
+        private string FindScreenshotsFolder()
+        {
+            List<string> csgoFolders = FindCSGOFolders();
+            foreach (var csgoFolder in csgoFolders)
+            {
+                string screenshotsPath = Path.Combine(csgoFolder, "csgo", "screenshots");
+                if (Directory.Exists(screenshotsPath))
+                {
+                    return screenshotsPath;
+                }
+            }
+
+            return null;
         }
 
         private string FindFolder(string folderName, string rootPath)
@@ -235,5 +285,21 @@ namespace CSGOCheatDetector.Views
 
             return foundFolders;
         }
+        private void ButtonOpenDataUsage_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "ms-settings:datausage",
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Не удалось открыть окно настроек: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
     }
 }

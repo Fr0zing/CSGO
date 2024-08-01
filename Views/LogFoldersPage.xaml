@@ -15,13 +15,15 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
             <Button Content="Prefetch" Click="ButtonPrefetch_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
-            <Button Content="Event Logs" Click="ButtonEventLogs_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
+            <Button Content="Открыть журнал событий" Click="ButtonEventLog_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
             <Button Content="WER Report Archive" Click="ButtonWERReportArchive_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
             <Button Content="AppData" Click="ButtonAppData_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
             <Button Content="Recent" Click="ButtonRecent_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
             <Button Content="History" Click="ButtonHistory_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
             <Button Content="Create Processes Report" Click="ButtonProcesses_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
+            <Button Content="Открыть использование данных" Click="ButtonOpenDataUsage_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10"/>
             <Button x:Name="CheckAndOpenCSGOButton" Content="Check and Open CS:GO" Click="ButtonCheckCSGO_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10" MinWidth="200"/>
+            <Button x:Name="ButtonOpenScreenshots" Content="Open Screenshots" Click="ButtonOpenScreenshots_Click" Style="{StaticResource NavButtonStyle}" Margin="0,0,0,10" MinWidth="200"/>
         </StackPanel>
     </Grid>
 </Page>

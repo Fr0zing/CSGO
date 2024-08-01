@@ -2,7 +2,9 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:converters="clr-namespace:CSGOCheatDetector.Converters"
-             StartupUri="RequestAccessWindow.xaml">
+             StartupUri="MainWindow.xaml">
+    <!-- StartupUri="RequestAccessWindow.xaml - запуск авторизации -->
+    <!-- StartupUri="Views/MainWindow.xaml"> - main windows -->
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

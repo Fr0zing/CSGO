@@ -1,0 +1,16 @@
+﻿<Window x:Class="CSGOCheatDetector.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InfoWindow" Height="800" Width="300"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        ShowInTaskbar="False" Topmost="True">
+
+    <Border CornerRadius="20" Background="#2e2e2e" Margin="10">
+        <Grid>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock x:Name="InfoTitle" Text="Информация" FontSize="20" FontWeight="Bold" Foreground="White" Margin="10"/>
+                <TextBlock x:Name="InfoContent" Text="" Foreground="White" Margin="10"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

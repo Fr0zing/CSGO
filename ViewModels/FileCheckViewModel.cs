@@ -11,6 +11,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using CSGOCheatDetector.Commands;
+using CSGOCheatDetector.Models;
+using CSGOCheatDetector.Services;
 
 namespace CSGOCheatDetector.ViewModels
 {
@@ -21,8 +24,9 @@ namespace CSGOCheatDetector.ViewModels
         private string _status;
         private bool _isSearching;
         private CancellationTokenSource _cancellationTokenSource;
-        private List<string> _excludedNames; // переменная для хранения исключаемых названий файлов
-        private List<string> _excludedFolderNames; // переменная для хранения исключаемых имен папок
+        private List<string> _excludedNames;
+        private List<string> _excludedFolderNames;
+        private List<string> _suspiciousPatterns;
 
         public ObservableCollection<SuspiciousFile> SuspiciousFiles
         {
@@ -79,10 +83,14 @@ namespace CSGOCheatDetector.ViewModels
                 "Interwebz", "IWantCheats", "Triggerbot", "FlixHack", "HyperCheats", "ESP", "Project-Infinity",
                 "Big Milk", "Chod’s Cheats", "Bunnyhop", "HyperHook", "AIMJUNKIES", "Radar Hack", "Unityhacks",
                 "Aimhax", "No Recoil", "No Spread", "Spinbot", "Skin Changer", "Osiris", "Anti-Aim", "Silent Aim",
-                "Glow Hack", "Auto Pistol"
+                "Glow Hack", "Auto Pistol", "Advance.Tech", "Airflow Beta", "Alphen", "CSGOSimple", "D1gital",
+                "Echozy.pw", "Ekknod", "Extender", "Fatality.win", "FluidAim", "ILikeFeet", "Luno Free", "NAIM Free",
+                "Onetap v3", "Pandora.gg", "Plaguecheat.cc", "Qo0", "RaweTrip", "RyzeXTR", "YeahNOT", "cshSkins",
+                "exloader", "Extreme Injector", "process hacker", "Guided Hacking Injector"
             };
-            _excludedNames = new List<string> { "Microsoft", "System" }; // примеры исключаемых названий файлов
-            _excludedFolderNames = new List<string> { "Anaconda", "Microsoft", "anaconda3", "dota 2 beta", "Windows Kits", "Adobe" }; // примеры исключаемых имен папок
+            _excludedNames = new List<string> { "Microsoft", "System" };
+            _excludedFolderNames = new List<string> { "Anaconda", "Microsoft", "anaconda3", "dota 2 beta", "Windows Kits", "Adobe" };
+            _suspiciousPatterns = new List<string>(SuspiciousNames);
             Status = "Статус: Ожидание";
             IsSearching = false;
             _cancellationTokenSource = new CancellationTokenSource();
@@ -106,12 +114,12 @@ namespace CSGOCheatDetector.ViewModels
         public async Task StartSearchAsync()
         {
             StartNewSearch();
-            SuspiciousFiles.Clear(); // Очищаем список подозрительных файлов перед началом поиска
+            SuspiciousFiles.Clear();
             Status = "Статус: Поиск...";
             IsSearching = true;
 
             string[] rootPaths = Directory.GetLogicalDrives();
-            string[] allowedExtensions = { ".exe", ".ahk", ".lua", ".dll" };
+            string[] allowedExtensions = { ".exe", ".ahk", ".lua", ".dll", ".bat", ".cfg" };
             string[] systemDirectories = { @"C:\Windows" };
             long minFileSize = 1024;
 
@@ -119,13 +127,14 @@ namespace CSGOCheatDetector.ViewModels
             {
                 var stopwatch = Stopwatch.StartNew();
                 var suspiciousFiles = new ConcurrentBag<SuspiciousFile>();
+                var fileSearchService = new FileSearchService(_excludedNames, _excludedFolderNames, _suspiciousPatterns, UpdateStatus);
 
                 foreach (var rootPath in rootPaths)
                 {
-                    var filesFromDisk = await Task.Run(() => SearchSuspiciousFiles(rootPath, SuspiciousNames.ToArray(), allowedExtensions, systemDirectories, minFileSize, Token));
+                    var filesFromDisk = await Task.Run(() => fileSearchService.SearchSuspiciousFiles(rootPath, allowedExtensions, systemDirectories, minFileSize, Token));
                     foreach (var file in filesFromDisk)
                     {
-                        if (!suspiciousFiles.Contains(file)) // Проверка на уникальность
+                        if (!suspiciousFiles.Contains(file))
                         {
                             suspiciousFiles.Add(file);
                         }
@@ -143,7 +152,7 @@ namespace CSGOCheatDetector.ViewModels
 
                 foreach (var file in suspiciousFiles)
                 {
-                    if (!SuspiciousFiles.Contains(file)) // Проверка на уникальность перед добавлением
+                    if (!SuspiciousFiles.Contains(file))
                     {
                         SuspiciousFiles.Add(file);
                     }
@@ -166,6 +175,11 @@ namespace CSGOCheatDetector.ViewModels
             }
         }
 
+        private void UpdateStatus(int processedItems)
+        {
+            Application.Current.Dispatcher.Invoke(() => Status = $"Статус: Поиск... Обработано {processedItems} элементов");
+        }
+
         public void SaveToFile()
         {
             if (SuspiciousFiles.Count == 0)
@@ -174,8 +188,8 @@ namespace CSGOCheatDetector.ViewModels
                 return;
             }
 
-            string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            string filePath = Path.Combine(appDirectory, "SuspiciousFiles.txt");
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string filePath = Path.Combine(desktopPath, "SuspiciousFiles.txt");
 
             try
             {
@@ -201,216 +215,11 @@ namespace CSGOCheatDetector.ViewModels
             }
         }
 
-        private List<SuspiciousFile> SearchSuspiciousFiles(string rootPath, string[] names, string[] extensions, string[] systemDirectories, long minFileSize, CancellationToken cancellationToken)
-        {
-            var suspiciousFiles = new ConcurrentBag<SuspiciousFile>();
-            var directories = new BlockingCollection<string> { rootPath };
-
-            var processedDirectories = new ConcurrentDictionary<string, bool>(StringComparer.OrdinalIgnoreCase);
-            var processedFiles = new ConcurrentDictionary<string, bool>(StringComparer.OrdinalIgnoreCase);
-
-            int processedItems = 0;
-
-            while (directories.Count > 0 && !cancellationToken.IsCancellationRequested)
-            {
-                var currentDir = directories.Take();
-
-                // Пропускаем директории, содержащие исключаемые имена
-                if (_excludedFolderNames.Any(excludedName => currentDir.Split(Path.DirectorySeparatorChar).Any(dir => dir.IndexOf(excludedName, StringComparison.OrdinalIgnoreCase) >= 0)))
-                {
-                    continue;
-                }
-
-                if (!processedDirectories.TryAdd(currentDir, true))
-                {
-                    continue;
-                }
-
-                try
-                {
-                    var subDirectories = Directory.EnumerateDirectories(currentDir).ToList();
-                    var files = Directory.EnumerateFiles(currentDir).ToList();
-
-                    Parallel.ForEach(subDirectories, dir =>
-                    {
-                        directories.Add(dir);
-                        Interlocked.Increment(ref processedItems);
-                        UpdateStatus(processedItems);
-                    });
-
-                    Parallel.ForEach(files, file =>
-                    {
-                        if (cancellationToken.IsCancellationRequested)
-                        {
-                            return;
-                        }
-
-                        if (!processedFiles.TryAdd(file, true))
-                        {
-                            return;
-                        }
-
-                        try
-                        {
-                            var fileInfo = new FileInfo(file);
-
-                            if ((fileInfo.Attributes & FileAttributes.System) == FileAttributes.System ||
-                                (fileInfo.Attributes & FileAttributes.Hidden) == FileAttributes.Hidden)
-                            {
-                                return;
-                            }
-
-                            if (systemDirectories.Any(dir => fileInfo.FullName.StartsWith(dir, StringComparison.OrdinalIgnoreCase)))
-                            {
-                                return;
-                            }
-
-                            if (!extensions.Contains(fileInfo.Extension.ToLower()))
-                            {
-                                return;
-                            }
-
-                            if (fileInfo.Length < minFileSize)
-                            {
-                                return;
-                            }
-
-                            // Проверка на подозрительное имя файла и исключаемое имя файла
-                            if (names.Any(name => fileInfo.Name.IndexOf(name, StringComparison.OrdinalIgnoreCase) >= 0) &&
-                                !_excludedNames.Any(excludedName => fileInfo.Name.IndexOf(excludedName, StringComparison.OrdinalIgnoreCase) >= 0))
-                            {
-                                var suspiciousFile = new SuspiciousFile
-                                {
-                                    Name = fileInfo.Name,
-                                    Size = fileInfo.Length / 1024,
-                                    CreationDate = fileInfo.CreationTime,
-                                    ModificationDate = fileInfo.LastWriteTime,
-                                    AccessDate = fileInfo.LastAccessTime,
-                                    Extension = fileInfo.Extension,
-                                    FullPath = fileInfo.FullName
-                                };
-
-                                suspiciousFiles.Add(suspiciousFile);
-                                Application.Current.Dispatcher.Invoke(() =>
-                                {
-                                    if (!SuspiciousFiles.Contains(suspiciousFile)) // Проверка на уникальность перед добавлением
-                                    {
-                                        SuspiciousFiles.Add(suspiciousFile);
-                                    }
-                                });
-                            }
-                        }
-                        catch (UnauthorizedAccessException)
-                        {
-                            // Пропускаем файлы, к которым нет доступа
-                        }
-                        catch (PathTooLongException)
-                        {
-                            // Пропускаем файлы с слишком длинным путем
-                        }
-                        catch (IOException)
-                        {
-                            // Пропускаем файлы с ошибками ввода-вывода
-                        }
-                        catch (Exception)
-                        {
-                            // Пропускаем файлы с неожиданными ошибками
-                        }
-
-                        Interlocked.Increment(ref processedItems);
-                        UpdateStatus(processedItems);
-
-                        Thread.Sleep(1);
-                    });
-                }
-                catch (UnauthorizedAccessException)
-                {
-                    // Пропускаем директории, к которым нет доступа
-                }
-                catch (PathTooLongException)
-                {
-                    // Пропускаем директории с слишком длинным путем
-                }
-                catch (IOException)
-                {
-                    // Пропускаем директории с ошибками ввода-вывода
-                }
-                catch (Exception)
-                {
-                    // Пропускаем директории с неожиданными ошибками
-                }
-            }
-
-            return suspiciousFiles.ToList();
-        }
-
-        private void UpdateStatus(int processedItems)
-        {
-            Application.Current.Dispatcher.Invoke(() => Status = $"Статус: Поиск... Обработано {processedItems} элементов");
-        }
-
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged([CallerMemberName] string name = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
-    }
-
-    public class SuspiciousFile : IEquatable<SuspiciousFile>
-    {
-        public string Name { get; set; }
-        public long Size { get; set; }
-        public DateTime CreationDate { get; set; }
-        public DateTime ModificationDate { get; set; }
-        public DateTime AccessDate { get; set; }
-        public string Extension { get; set; }
-        public string FullPath { get; set; }
-
-        public bool Equals(SuspiciousFile other)
-        {
-            if (other is null) return false;
-            return FullPath == other.FullPath;
-        }
-
-        public override bool Equals(object obj) => Equals(obj as SuspiciousFile);
-        public override int GetHashCode() => FullPath.GetHashCode();
-    }
-
-    public class RelayCommand : ICommand
-    {
-        private readonly Action<object> _execute;
-        private readonly Predicate<object> _canExecute;
-
-        public RelayCommand(Action<object> execute) : this(execute, null)
-        {
-        }
-
-        public RelayCommand(Action<object> execute, Predicate<object> canExecute)
-        {
-            _execute = execute ?? throw new ArgumentNullException(nameof(execute));
-            _canExecute = canExecute;
-        }
-
-        public bool CanExecute(object parameter)
-        {
-            return _canExecute == null || _canExecute(parameter);
-        }
-
-        public void Execute(object parameter)
-        {
-            _execute(parameter);
-        }
-
-        public event EventHandler CanExecuteChanged
-        {
-            add => CommandManager.RequerySuggested += value;
-            remove => CommandManager.RequerySuggested -= value;
-        }
-
-        public void RaiseCanExecuteChanged()
-        {
-            CommandManager.InvalidateRequerySuggested();
         }
     }
 }

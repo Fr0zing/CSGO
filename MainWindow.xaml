@@ -27,6 +27,7 @@
                     <ColumnDefinition Width="300"/>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0" x:Name="InfoPanelColumn"/> <!-- Column for Info Panel -->
                 </Grid.ColumnDefinitions>
 
                 <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Width="250">
@@ -35,12 +36,20 @@
                     <Button Content="Папки с логами" Click="ButtonLogFoldersPage_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
                     <Button Content="Steam аккаунты" Click="ButtonSteamAccountsPage_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
                     <Button Content="Дополнительные программы" Click="ButtonAdditionalProgramsPage_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
+                    <Button Content="Проверка процесса игры" Click="ButtonGameProcessCheckPage_Click" Style="{StaticResource NavButtonStyle}" Height="50" />
+                    <Button Content="Браузер" Click="ButtonBrowserPage_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
                     <Button Content="Закрыть" Click="ButtonClose_Click" Style="{StaticResource NavButtonStyle}" Height="50"/>
                 </StackPanel>
 
                 <Border Grid.Column="1" Width="2" Background="Gray" Margin="0,10,0,10"/>
 
                 <Frame x:Name="MainFrame" Grid.Column="2" NavigationUIVisibility="Hidden"/>
+
+                <!-- Info Panel -->
+                <StackPanel x:Name="InfoPanel" Grid.Column="3" Background="#2e2e2e" Visibility="Collapsed">
+                    <TextBlock x:Name="InfoPanelTitle" Text="Информация" FontSize="16" FontWeight="Bold" Foreground="White" Margin="10"/>
+                    <TextBlock x:Name="InfoPanelContent" Text="" Foreground="White" Margin="10"/>
+                </StackPanel>
             </Grid>
         </Grid>
     </Border>

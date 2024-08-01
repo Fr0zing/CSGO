@@ -1,0 +1,31 @@
+﻿<Page x:Class="CSGOCheatDetector.Views.BrowserPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="BrowserPage">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Кнопки для открытия сайтов слева -->
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+            <Button Content="Zelenka и Lolz.market" Click="OpenZelenkaAndLolz_Click" Style="{StaticResource NavButtonStyle}" Width="200" Margin="0,10"/>
+            <Button Content="Oplata.info" Click="OpenOplataInfo_Click" Style="{StaticResource NavButtonStyle}" Width="200" Margin="0,10"/>
+            <Button Content="FunPay" Click="OpenFunPay_Click" Style="{StaticResource NavButtonStyle}" Width="200" Margin="0,10"/>
+            <Button Content="VK сайты" Click="OpenVKSites_Click" Style="{StaticResource NavButtonStyle}" Width="200" Margin="0,10"/>
+            <Button Content="BrokenCore.club" Click="OpenBrokenCore_Click" Style="{StaticResource NavButtonStyle}" Width="200" Margin="0,10"/>
+            <Button Content="EzCheats.ru" Click="OpenEzCheats_Click" Style="{StaticResource NavButtonStyle}" Width="200" Margin="0,10"/>
+            <Button Content="Select-Place.ru" Click="OpenSelectPlace_Click" Style="{StaticResource NavButtonStyle}" Width="200" Margin="0,10"/>
+            <Button Content="Открыть все сайты" Click="OpenAllSites_Click" Style="{StaticResource NavButtonStyle}" Width="200" Margin="0,10"/>
+        </StackPanel>
+
+        <!-- Кнопки браузеров справа -->
+        <StackPanel Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+            <TextBlock Text="Выберите браузер:" FontSize="18" FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
+            <StackPanel Name="BrowserList" />
+            <TextBlock x:Name="InfoTextBlock" Text="Информация будет отображаться здесь" Margin="10" TextAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>

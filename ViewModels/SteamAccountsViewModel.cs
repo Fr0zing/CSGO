@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
@@ -76,62 +77,85 @@ namespace CSGOCheatDetector.ViewModels
         private List<SteamAccount> GetSteamAccounts()
         {
             var accounts = new List<SteamAccount>();
-            var drives = DriveInfo.GetDrives().Where(d => d.DriveType == DriveType.Fixed && d.IsReady);
+            var steamPaths = new List<string>();
 
-            foreach (var drive in drives)
+            // Стандартные пути установки Steam
+            var standardPaths = new[]
             {
-                var root = drive.RootDirectory.FullName;
-                var possiblePaths = FindSteamPaths(root);
+                @"C:\Program Files (x86)\Steam",
+                @"C:\Program Files\Steam",
+                @"D:\Steam", // Добавьте другие возможные пути
+            };
 
-                foreach (var path in possiblePaths)
+            // Проверка стандартных путей
+            foreach (var path in standardPaths)
+            {
+                if (Directory.Exists(path) && File.Exists(Path.Combine(path, "steam.exe")))
                 {
-                    try
+                    steamPaths.Add(path);
+                }
+            }
+
+            // Если стандартные пути не дали результатов, выполняем полный обход дисков
+            if (steamPaths.Count == 0)
+            {
+                var drives = DriveInfo.GetDrives().Where(d => d.DriveType == DriveType.Fixed && d.IsReady);
+
+                Parallel.ForEach(drives, drive =>
+                {
+                    var root = drive.RootDirectory.FullName;
+                    steamPaths.AddRange(FindSteamPaths(root));
+                });
+            }
+
+            foreach (var path in steamPaths)
+            {
+                try
+                {
+                    string steamConfigPath = Path.Combine(path, "config", "loginusers.vdf");
+                    if (File.Exists(steamConfigPath))
                     {
-                        string steamConfigPath = Path.Combine(path, "config", "loginusers.vdf");
-                        if (File.Exists(steamConfigPath))
+                        string[] lines = File.ReadAllLines(steamConfigPath);
+                        string steamIDPattern = "\"\\d{17}\"";
+                        string personaNamePattern = "\"PersonaName\"\\s+\"([^\"]+)\"";
+
+                        string steamID = string.Empty;
+                        string personaName = string.Empty;
+
+                        foreach (string line in lines)
                         {
-                            string[] lines = File.ReadAllLines(steamConfigPath);
-                            string steamIDPattern = "\"\\d{17}\"";
-                            string personaNamePattern = "\"PersonaName\"\\s+\"([^\"]+)\"";
-
-                            string steamID = string.Empty;
-                            string personaName = string.Empty;
-
-                            foreach (string line in lines)
+                            if (Regex.IsMatch(line, steamIDPattern))
                             {
-                                if (System.Text.RegularExpressions.Regex.IsMatch(line, steamIDPattern))
-                                {
-                                    steamID = System.Text.RegularExpressions.Regex.Match(line, steamIDPattern).Value.Replace("\"", "");
-                                }
+                                steamID = Regex.Match(line, steamIDPattern).Value.Replace("\"", "");
+                            }
 
-                                if (System.Text.RegularExpressions.Regex.IsMatch(line, personaNamePattern))
-                                {
-                                    personaName = System.Text.RegularExpressions.Regex.Match(line, personaNamePattern).Groups[1].Value;
-                                }
+                            if (Regex.IsMatch(line, personaNamePattern))
+                            {
+                                personaName = Regex.Match(line, personaNamePattern).Groups[1].Value;
+                            }
 
-                                if (!string.IsNullOrEmpty(steamID) && !string.IsNullOrEmpty(personaName))
+                            if (!string.IsNullOrEmpty(steamID) && !string.IsNullOrEmpty(personaName))
+                            {
+                                var avatarPath = Path.Combine(path, "config", "avatarcache", $"{steamID}.png");
+                                BitmapImage avatar = null;
+                                if (File.Exists(avatarPath))
                                 {
-                                    var avatarPath = Path.Combine(path, "config", "avatarcache", $"{steamID}.png");
-                                    BitmapImage avatar = null;
-                                    if (File.Exists(avatarPath))
+                                    Application.Current.Dispatcher.Invoke(() =>
                                     {
-                                        Application.Current.Dispatcher.Invoke(() =>
-                                        {
-                                            avatar = new BitmapImage(new Uri(avatarPath));
-                                        });
-                                    }
-
-                                    accounts.Add(new SteamAccount { SteamID = steamID, PersonaName = personaName, Avatar = avatar });
-                                    steamID = string.Empty;
-                                    personaName = string.Empty;
+                                        avatar = new BitmapImage(new Uri(avatarPath));
+                                    });
                                 }
+
+                                accounts.Add(new SteamAccount { SteamID = steamID, PersonaName = personaName, Avatar = avatar });
+                                steamID = string.Empty;
+                                personaName = string.Empty;
                             }
                         }
                     }
-                    catch (Exception)
-                    {
-                        // Ignore errors
-                    }
+                }
+                catch (Exception)
+                {
+                    // Ignore errors
                 }
             }
 
@@ -162,6 +186,10 @@ namespace CSGOCheatDetector.ViewModels
                 catch (UnauthorizedAccessException)
                 {
                     // Ignore access errors
+                }
+                catch (PathTooLongException)
+                {
+                    // Ignore path too long errors
                 }
             }
 
